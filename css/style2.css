@@ -1,0 +1,229 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    height: 400px;
+    background-color: #FF8067;
+}
+
+.menu-container {
+    position: relative;
+    margin-left: calc(50% - 140px);
+    margin-top: 0px;
+    width: 280px;
+}
+
+/*--------------------------
+    Start Tog Menu Button
+----------------------------*/
+
+.tog-menu {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 60px;
+    background-color: transparent;
+    z-index: 1;
+    cursor: pointer;
+    transition: left 400ms ease,
+                width 400ms ease,
+                box-shadow 0s ease 0s,
+                background-color 0s;
+    z-index: 10;
+}
+
+.menu-container.active .tog-menu {
+    top: 5px;
+    left: -25px;
+    width: 50px;
+    height: 50px;
+    background-color: #4E5452;
+    box-shadow: 0 0 1px 1px #fff;
+    border-radius: 100%;
+    transition: left 400ms ease,
+                width 400ms ease,
+                box-shadow .2s ease .2s,
+                background-color .2s linear .2s
+}
+
+/*----------------------
+    Burger Menu Bars
+-----------------------*/
+
+/* Normal State */
+.tog-menu span {
+    position: absolute;
+    width: 80px;
+    height: 3px;
+    background-color: rgba(0,0,0,.9);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: left .4s linear 0s,
+                transform .1s linear .1s,
+                top .4s linear .4s,
+                width .4s linear .4s
+}
+
+.tog-menu span:nth-of-type(1) {
+    top: 35%;
+}
+
+.tog-menu span:nth-of-type(2) {
+    transition: width .4s linear .4s,
+                opacity .2s linear .4s
+}
+
+.tog-menu span:nth-of-type(3) {
+    top: 65%;
+}
+
+
+/* --------------------
+    Active State
+---------------------- */
+.menu-container.active .tog-menu span {
+    background-color: rgba(255,255,255,.9);
+    width: 30px;
+}
+
+.menu-container.active .tog-menu span:nth-of-type(1),
+.menu-container.active .tog-menu span:nth-of-type(3) {
+    top: 50%;
+    left: 20%;
+    transition: width .2s linear .1s,
+                top .2s linear .2s,
+                background-color .2s linear .2s,
+                transform .4s linear .4s, 
+                left .4s linear .4s           
+}
+
+.menu-container.active .tog-menu span:nth-of-type(1) {
+    transform: rotate(-45deg);
+}
+
+.menu-container.active .tog-menu span:nth-of-type(2) {
+    opacity: 0;
+    transition: width .2s linear .1s,
+                opacity .1s linear .2s,
+                background-color .2s linear .2s
+}
+
+.menu-container.active .tog-menu span:nth-of-type(3) {
+    transform: rotate(45deg)
+}
+
+/* --------------------------
+    End Toggle Menu Button
+---------------------------- */
+
+ul {
+    position: absolute;
+    width: 280px;
+}
+
+/* ------------------------
+  Styling LI
+  Set Transition For Sliding
+--------------------------- */
+
+ul li:not(:first-child) {
+  transform: rotate(180deg);
+}
+
+ul li {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    background-color: #fafafa;
+    cursor: pointer;
+    transition: transform .8s ease, background-color .5s ease;
+    box-shadow: 0 0 1px 1px #ecf0f1
+}
+
+ul li:hover {
+    background-color: #fff
+}
+
+ul li:nth-of-type(1) { z-index: 6}
+ul li:nth-of-type(2) { z-index: 5}
+ul li:nth-of-type(3) { z-index: 4}
+ul li:nth-of-type(4) { z-index: 3}
+ul li:nth-of-type(5) { z-index: 2}
+ul li:nth-of-type(6) { z-index: 1}
+
+
+/* -----------------
+    Li Links
+-------------------*/
+
+ul li a {
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: 'Helvetica';
+    letter-spacing: .5px;
+    color:  #ff8080;
+    line-height: 4em
+}
+
+ul li:nth-of-type(1) a {
+    opacity: 0;
+    transition: opacity .1s ease 0s
+}
+
+.menu-container.active ul li:nth-of-type(1) a {
+    opacity: 1;
+    transition: opacity .4s ease .2s
+}
+
+/*linking text*/
+/* unvisited link */
+
+a:link {
+    color: #FF8067;
+     font-family: 'Helvetica';
+}
+
+/* visited link */
+a:visited {
+    color: #FF8067;
+     font-family: 'Helvetica';
+}
+
+/* mouse over link */
+a:hover {
+    color: #FF8067;
+     font-family: 'Helvetica';
+}
+
+/* selected link */
+a:active {
+    color: #FF8067;
+     font-family: 'Helvetica';
+}
+a:link {
+    text-decoration: none;
+     font-family: 'Helvetica';
+}
+
+a:visited {
+    text-decoration: none;
+     font-family: 'Helvetica';
+}
+
+a:hover {
+    text-decoration: none;
+     font-family: 'Helvetica';
+}
+
+a:active {
+    text-decoration: none;
+     font-family: 'Helvetica';
+}
