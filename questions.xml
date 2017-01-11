@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questions>
+	<item>
+		<category>EASY</category>
+			<question type='image'>assets/questions/question1.png</question>
+		<answers answerLayout='4type2' correctAnswer='2' answerOffsetY='200'>
+			<answer><![CDATA[3]]></answer>
+			<answer><![CDATA[6]]></answer>
+			<answer><![CDATA[5]]></answer>
+			<answer><![CDATA[8]]></answer>
+		</answers>
+	</item>
+	
+	<item>
+		<category>EASY</category>
+		<question type='image'>assets/questions/question2.png</question>
+		<answers answerLayout='4type2' correctAnswer='4' answerOffsetY='200'>
+			<answer><![CDATA[3]]></answer>
+			<answer><![CDATA[8]]></answer>
+			<answer><![CDATA[6]]></answer>
+			<answer><![CDATA[4]]></answer>
+		</answers>
+	</item>
+	
+	<item>
+	    <category>EASY</category>
+		<question type='image'>assets/questions/question3.png</question>
+		<answers answerLayout='4type2' correctAnswer='3' answerOffsetY='200'>
+			<answer><![CDATA[3]]></answer>
+			<answer><![CDATA[4]]></answer>
+			<answer><![CDATA[1]]></answer>
+			<answer><![CDATA[5]]></answer>
+		</answers>
+	</item>
+	
+	<item>
+		<category>EASY</category>
+		<question type='image'>assets/questions/question4.png</question>
+		<answers answerLayout='4type2' correctAnswer='3' answerOffsetY='200'>
+			<answer><![CDATA[3]]></answer>
+			<answer><![CDATA[6]]></answer>
+			<answer><![CDATA[5]]></answer>
+			<answer><![CDATA[8]]></answer>
+		</answers>
+	</item>
+	
+	<item>
+		<category>EASY</category>
+		<question type='image'>assets/questions/question5.png</question>
+		<answers answerLayout='4type2' correctAnswer='4' answerOffsetY='200'>
+			<answer><![CDATA[3]]></answer>
+			<answer><![CDATA[4]]></answer>
+			<answer><![CDATA[6]]></answer>
+			<answer><![CDATA[2]]></answer>
+		</answers>
+	</item>
+	
+	<item>
+		<category>EASY</category>
+		<question type='image'>assets/questions/question6.png</question>
+		<answers answerLayout='4type2' correctAnswer='3' answerOffsetY='200'>
+			<answer><![CDATA[7]]></answer>
+			<answer><![CDATA[5]]></answer>
+			<answer><![CDATA[3]]></answer>
+			<answer><![CDATA[8]]></answer>
+		</answers>
+	</item>
+	
+	<item>
+		<category>MEDIUM</category>
+		<question type='image'>assets/questions/question7.png</question>
+		<answers answerLayout='4type2' correctAnswer='4' answerOffsetY='200'>
+			<answer><![CDATA[3]]></answer>
+			<answer><![CDATA[5]]></answer>
+			<answer><![CDATA[6]]></answer>
+			<answer><![CDATA[2]]></answer>
+		</answers>
+	</item>
+	
+	<item>
+		<category>MEDIUM</category>
+		<question type='image'>assets/questions/question8.png</question>
+		<answers answerLayout='4type2' correctAnswer='3' answerOffsetY='200'>
+			<answer><![CDATA[4]]></answer>
+			<answer><![CDATA[5]]></answer>
+			<answer><![CDATA[3]]></answer>
+			<answer><![CDATA[6]]></answer>
+		</answers>
+	</item>
+	
+	<item>
+		<category>MEDIUM</category>
+		<question type='image'>assets/questions/question9.png</question>
+		<answers answerLayout='4type2' correctAnswer='4' answerOffsetY='200'>
+			<answer><![CDATA[3]]></answer>
+			<answer><![CDATA[5]]></answer>
+			<answer><![CDATA[6]]></answer>
+			<answer><![CDATA[4]]></answer>
+		</answers>
+	</item>
+	
+	<item>
+		<category>MEDIUM</category>
+		<question type='image'>assets/questions/question10.png</question>
+		<answers answerLayout='4type2' correctAnswer='3' answerOffsetY='200'>
+			<answer><![CDATA[4]]></answer>
+			<answer><![CDATA[7]]></answer>
+			<answer><![CDATA[5]]></answer>
+			<answer><![CDATA[8]]></answer>
+		</answers>
+	</item>
+	
+	<item>
+		<category>MEDIUM</category>
+		<question type='image'>assets/questions/question11.png</question>
+		<answers answerLayout='4type2' correctAnswer='2' answerOffsetY='200'>
+			<answer><![CDATA[3]]></answer>
+			<answer><![CDATA[6]]></answer>
+			<answer><![CDATA[5]]></answer>
+			<answer><![CDATA[8]]></answer>
+		</answers>
+	</item>
+	
+	<item>
+		<category>MEDIUM</category>
+		<question type='image'>assets/questions/question12.png</question>
+		<answers answerLayout='4type2' correctAnswer='4' answerOffsetY='200'>
+			<answer><![CDATA[6]]></answer>
+			<answer><![CDATA[8]]></answer>
+			<answer><![CDATA[9]]></answer>
+			<answer><![CDATA[7]]></answer>
+		</answers>
+	</item>
+	
+	
+	<item>
+		<category>HARD</category>
+		<question type='image'>assets/questions/question13.png</question>
+		<answers answerLayout='4type2' correctAnswer='2' answerOffsetY='200'>
+			<answer><![CDATA[3]]></answer>
+			<answer><![CDATA[5]]></answer>
+			<answer><![CDATA[7]]></answer>
+			<answer><![CDATA[9]]></answer>
+		</answers>
+	</item>
+	
+	<item>
+		<category>HARD</category>
+		<question type='image'>assets/questions/question14.png</question>
+		<answers answerLayout='4type2' correctAnswer='3' answerOffsetY='200'>
+			<answer><![CDATA[4]]></answer>
+			<answer><![CDATA[7]]></answer>
+			<answer><![CDATA[3]]></answer>
+			<answer><![CDATA[6]]></answer>
+		</answers>
+	</item>
+	
+	<item>
+		<category>HARD</category>
+		<question type='image'>assets/questions/question15.png</question>
+		<answers answerLayout='4type2' correctAnswer='4' answerOffsetY='200'>
+			<answer><![CDATA[8]]></answer>
+			<answer><![CDATA[5]]></answer>
+			<answer><![CDATA[9]]></answer>
+			<answer><![CDATA[4]]></answer>
+		</answers>
+	</item>
+	
+	<item>
+		<category>HARD</category>
+		<question type='image'>assets/questions/question16.png</question>
+		<answers answerLayout='4type2' correctAnswer='3' answerOffsetY='200'>
+			<answer><![CDATA[9]]></answer>
+			<answer><![CDATA[12]]></answer>
+			<answer><![CDATA[10]]></answer>
+			<answer><![CDATA[8]]></answer>
+		</answers>
+	</item>
+	
+	<item>
+		<category>HARD</category>
+		<question type='image'>assets/questions/question17.png</question>
+		<answers answerLayout='4type2' correctAnswer='2' answerOffsetY='200'>
+			<answer><![CDATA[9]]></answer>
+			<answer><![CDATA[12]]></answer>
+			<answer><![CDATA[10]]></answer>
+			<answer><![CDATA[7]]></answer>
+		</answers>
+	</item>
+	
+	<item>
+		<category>HARD</category>
+		<question type='image'>assets/questions/question18.png</question>
+		<answers answerLayout='4type2' correctAnswer='4' answerOffsetY='200'>
+			<answer><![CDATA[4]]></answer>
+			<answer><![CDATA[9]]></answer>
+			<answer><![CDATA[6]]></answer>
+			<answer><![CDATA[8]]></answer>
+		</answers>
+	</item>
+	
+</questions>

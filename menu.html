@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Helvetica'>
+    <link rel="stylesheet" href="css/style2.css">
+    
+	<script type="text/javascript" charset="utf-8">
+
+    // Wait for device API libraries to load
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // device APIs are available
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+    }
+
+    </script>
+
+    
+    
+    
+  </head>
+
+  <body onload="onLoad()">
+
+    <body>
+	
+    <div class="menu-container"> 
+    <span class="tog-menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </span>
+    
+    <ul>
+
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="math.html">MATHEMATICS</a></li>
+      <li><a href="quizlevel.html">VOCABULARY</a></li>
+      <li><a href= "help.html">HELP</a></li>
+      <li><a href="profile.html">ABOUT</a></li>
+
+    </ul>
+    </div>
+  
+  <!--background sound-->
+		<audio autoplay="autoplay" loop="true">
+			<source src="v.mp3" />     
+		</audio> 
+</body>
+    
+        <script src="js/index2.js"></script>
+
+    
+    
+    
+  </body>
+</html>

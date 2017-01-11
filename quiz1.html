@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+ 
+    <title>Quiz</title>
+    <link href="main.css"rel="stylesheet"type="text/css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 	<script src="jquery.js"></script>
+    <script src="controller1.js"></script>  
+	
+	<script type="text/javascript" charset="utf-8">
+
+    // Wait for device API libraries to load
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // device APIs are available
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+    }
+
+    </script>
+	
+ 
+</head>
+
+<body onload="onLoad()">
+
+<div id="topbar"><b><font color="black">QUIZ GAME</b></font></div>
+<div class="spacer"></div>
+</font>
+<div id="navContent">
+
+<div id="game1"></div>
+<div id="game2"></div>
+</div>
+ 
+
+
+
+</body>
+</html>

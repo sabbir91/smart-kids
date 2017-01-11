@@ -1,0 +1,43 @@
+{"quizlist":[
+  
+	{
+	"question":"Which picture shows a cherry?",
+	"option1":"cherry.png",
+	"option2":"apple.png",
+	"option3":"banana.png"
+	},
+	{
+	"question":"Which picture shows a cauliflower?",
+	"option1":"cauliflower.png",
+	"option2":"carrot.png",
+	"option3":"tomato.png"
+	},
+	{
+	"question":"Which picture shows a judge?",
+	"option1":"judge.png",
+	"option2":"police.png",
+	"option3":"singer.png"
+	},
+	{
+	"question":"Which picture shows a pencil box?",
+	"option1":"pencil box.png",
+	"option2":"eraser.png",
+	"option3":"book.png"
+	},
+	{
+	"question":"Which picture shows a train?",
+	"option1":"train.png",
+	"option2":"rocket.png",
+	"option3":"ship.png"
+	},
+	{
+	"question":"Which picture shows a pink?",
+	"option1":"pink.png",
+	"option2":"brown.png",
+	"option3":"red.png"
+	}
+
+
+
+]
+}

@@ -1,0 +1,43 @@
+{"quizlist":[
+  
+	{
+	"question":"Which picture shows a watermelon?",
+	"option1":"watermelon.png",
+	"option2":"pineapple.png",
+	"option3":"grapes.png"
+	},
+	{
+	"question":"Which picture shows a eggplant?",
+	"option1":"eggplant.png",
+	"option2":"pumkin.png",
+	"option3":"potato.png"
+	},
+	{
+	"question":"Which picture shows a postman?",
+	"option1":"postman.png",
+	"option2":"nurse.png",
+	"option3":"police.png"
+	},
+	{
+	"question":"Which picture shows a note book?",
+	"option1":"note book.png",
+	"option2":"paint brush.png",
+	"option3":"pencil box.png"
+	},
+	{
+	"question":"Which picture shows a car?",
+	"option1":"car.png",
+	"option2":"train.png",
+	"option3":"bus.png"
+	},
+	{
+	"question":"Which picture shows a purple?",
+	"option1":"purple.png",
+	"option2":"blue.png",
+	"option3":"brown.png"
+	}
+
+
+
+]
+}

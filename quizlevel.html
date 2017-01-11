@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Animate Button</title>
+	
+	<!--icon form Fort Awesome-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/style6.css">
+	
+	<script type="text/javascript" charset="utf-8">
+
+    // Wait for device API libraries to load
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // device APIs are available
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+    }
+
+    </script>
+	
+	
+<style>
+body {
+    background-image: url("img/bg2.jpg");
+	background-position: absolute;
+    background-repeat: no-repeat-x;
+    background-size: 100% 110%;/*arrange the size */
+	
+	padding:  18px 0px;/*arrange the size */
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 50px;
+}
+
+</style>
+
+</head>
+	 <body onload="onLoad()">
+		<center>
+		<section>
+			    <div class="center">
+					<div class="Btn Btn-Up blue" data-content="Cool">
+					<a href="quiz1.html">
+					  <span>
+						  <em>Easy</em>
+						  <i aria-hidden="true" class="fa fa-thumbs-up fa-lg"></i>				
+					  </span>
+					</a>
+			  </div>
+			
+			  <div class="Btn Btn-Up orange" data-content="Smart">
+					<a href="quiz2.html">
+					  <span>
+						  <em>Medium</em>
+						  <i aria-hidden="true" class="fa fa-gamepad fa-lg"></i>				
+					  </span>
+					</a>
+			  </div>
+			
+			  <div class="Btn Btn-Down pink" data-content="Genius!">
+					<a href="quiz3.html">
+					  <span>
+						  <em>Hard</em>
+						  <i aria-hidden="true" class="fa fa-trophy fa-lg"></i>
+					  </span>
+					  </a>
+			  </div>
+		</section>
+	    </center>
+	   
+	   <!--background sound-->
+		<audio autoplay="autoplay" loop="true">
+			<source src="w.mp3" />     
+		</audio> 
+	   
+	</body>
+</html>

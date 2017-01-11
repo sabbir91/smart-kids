@@ -1,0 +1,43 @@
+{"quizlist":[
+  
+	{
+	"question":"Which picture shows a papaya?",
+	"option1":"papaya.png",
+	"option2":"orange.png",
+	"option3":"mango.png"
+	},
+	{
+	"question":"Which picture shows a corn?",
+	"option1":"corn.png",
+	"option2":"broccoli.png",
+	"option3":"onions.png"
+	},
+	{
+	"question":"Which picture shows a doctor?",
+	"option1":"doctor.png",
+	"option2":"dancer.png",
+	"option3":"singer.png"
+	},
+	{
+	"question":"Which picture shows a scissor?",
+	"option1":"scissor.png",
+	"option2":"pen.png",
+	"option3":"note book.png"
+	},
+	{
+	"question":"Which picture shows a ship?",
+	"option1":"ship.png",
+	"option2":"bus.png",
+	"option3":"boat.png"
+	},
+	{
+	"question":"Which picture shows a green?",
+	"option1":"green.png",
+	"option2":"yellow.png",
+	"option3":"blue.png"
+	}
+
+
+
+]
+}
